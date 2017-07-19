@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sum in loop</title>
+
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    var sum =0;
+    var i;
+    var xut="752 143 564 597 1273 1158 1136 1146 382 57 489 1157 469 480 26 785 117 983 718 766 1208 1020 287 917 725 29 41 743 1168 819 232 620 952 787 1207 924 645 1043 770 1017 1091 1249";
+    var y=xut.split(" ");
+//    document.getElementById("demo").innerHTML=y[i];
+    for (i =0; i<y.length; i++)
+    {
+        sum+=parseInt(y[i]);
+        document.getElementById("demo").innerHTML=sum;
+
+    }
+
+</script>
+
+</body>
+</html>
